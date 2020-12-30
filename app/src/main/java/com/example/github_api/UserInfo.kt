@@ -1,6 +1,6 @@
 package com.example.github_api
 
-class UserInfo {
+class UserInfo (
     val login:String,
     val id:String,
     val node_id:String,
@@ -20,4 +20,4 @@ class UserInfo {
     val type:String,
     val site_admin:String,
     val score:String
-}
+)
